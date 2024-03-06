@@ -27,7 +27,22 @@ body {
   font-size: 1rem;
   line-height: 1.25;
 }
+.Logo {
+  max-width: 10%;
+}
 
+button {
+  border-radius: 14px;
+  padding: 10px;
+  width: 173px;
+  height: 51px;
+  color: #9fd9ec;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
 a {
   color: inherit;
 }
