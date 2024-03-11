@@ -1,0 +1,20 @@
+.button-header {
+  width: 153px;
+  height: 51px;
+  background: white;
+  border-radius: 14px;
+  color: #9fd9ec;
+  border: none;
+  padding: 10px 10px;
+  box-shadow: 0 0 0 1px #9fd9ec none;
+  outline: none;
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: normal;
+  margin-top: 30px;
+  font-size: 20px;
+}
+
+.button-header:active {
+  color: #eee;
+  background: #9fd9ec;
+}

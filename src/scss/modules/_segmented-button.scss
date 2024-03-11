@@ -1,0 +1,68 @@
+.segmented-button {
+  padding: 32px;
+  margin-left: 50px;
+}
+.segmented-button input[type="radio"] {
+  width: 0px;
+  height: 0px;
+  display: none;
+}
+.segmented-button label {
+  display: -moz-inline-box;
+  -moz-box-orient: vertical;
+  display: inline-block;
+  vertical-align: middle;
+  vertical-align: auto;
+  border-radius: 20px 0px 0px 20px;
+  color: white;
+  background: #76aabc;
+  padding: 5px 24px;
+  padding-bottom: 4px;
+  font-size: 32px;
+  cursor: pointer;
+  font-family: "Josefin Sans", sans-serif;
+  border-radius: 0px;
+  margin-right: -6px;
+  margin-bottom: 10px;
+}
+
+.segmented-button label {
+  display: inline-block;
+
+  &:hover {
+    color: whitex;
+    background: lighten(#ff6827, 10%);
+    background: lighten(#ff6827, 10%);
+  }
+}
+.segmented-button label:disabled,
+.segmented-button label.disabled {
+  cursor: default;
+}
+
+.segmented-button label.first {
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+}
+
+.segmented-button label.last {
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+
+.segmented-button label:active,
+.segmented-button label.active,
+.segmented-button input:checked + label,
+.segmented-button label.selected {
+  background: #ff6827;
+  color: white;
+}
+
+.segmented-button input:disabled + label {
+  cursor: not-allowed;
+  color: rgba(blue, 0.5);
+
+  &:hover {
+    background: yellow;
+  }
+}

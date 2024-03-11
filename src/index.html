@@ -5,47 +5,74 @@
     <title>eikon parcel starter</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="scss/main.scss" />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <div class="container">
       <div class="container">
         <div class="row">
-          <div class="col Logo"><img src="/src/img/Fichier 1.png" alt="Logo"></div>
-          <div class="col">colonne 2</div>
-          <div class="col"><button>Besoin d'aide?</button></div>
-        </div>
-        <div class="row">
-          <div class="col-lg-8 offset-lg-2">colonne 4</div>
+          <div class="col-3">
+            <img class="logo" src="/src/img/Fichier 1.png" alt="Logo" />
+          </div>
+          <div class="col-6">
+            <div class="segmented-button">
+              <input
+                type="radio"
+                name="seg-1"
+                value="organisation"
+                id="seg-jepratique"
+                checked
+              />
+              <label for="seg-jepratique" class="first">Je pratique</label>
+
+              <input
+                type="radio"
+                name="seg-1"
+                value="Users"
+                id="seg-jecree"
+                checked
+              />
+              <label for="seg-jecree" class="last">Je crée</label>
+            </div>
+          </div>
+          <div class="col-3">
+            <button class="button-header">Besoin d'aide</button>
+          </div> 
+      </div>
+      <div class="row">
+        <div class="col-lg-8 offset-lg-2">colonne 4</div>
       </div>
       <div class="row">
         <div class="col-lg-12">colonne 5</div>
-    </div>
-    <div class="row">
-      <div class="col-lg-12">colonne 6</div>
-  </div>
-  <div class="row">
-    <div class="col-lg-12">colonne 7</div>
-</div>
-<div class="row">
-  <div class="col-lg-4">colonne 8</div>
-  <div class="col-lg-4 offset-md-4">colonne 9</div>
-</div>
-<div class="row">
-  <div class="col-lg-12">colonne 10</div>
-</div>
-<div class="row">
-  <div class="col-lg-4 offset-lg-1">colonne 11</div>
-  <div class="col-lg-4 offset-lg-2">colonne 12</div>
-</div>
-<div class="row">
-  <div class="col-lg-12">colonne 13</div>
-</div>
-<div class="row">
-  <div class="col-lg-12">colonne 14</div>
-</div>
+      </div>
+      <div class="row">
+        <div class="col-lg-12">colonne 6</div>
+      </div>
+      <div class="row">
+        <div class="col-lg-12">colonne 7</div>
+      </div>
+      <div class="row">
+        <div class="col-lg-4">colonne 8</div>
+        <div class="col-lg-4 offset-md-4">colonne 9</div>
+      </div>
+      <div class="row">
+        <div class="col-lg-12">colonne 10</div>
+      </div>
+      <div class="row">
+        <div class="col-lg-4 offset-lg-1">colonne 11</div>
+        <div class="col-lg-4 offset-lg-2">colonne 12</div>
+      </div>
+      <div class="row">
+        <div class="col-lg-12">colonne 13</div>
+      </div>
+      <div class="row">
+        <div class="col-lg-12">colonne 14</div>
+      </div>
     </div>
     <script src="js/main.js" type="module"></script>
   </body>
