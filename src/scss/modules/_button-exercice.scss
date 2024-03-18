@@ -1,0 +1,21 @@
+.button-exercice {
+  background: #ff6827;
+  border-radius: 10px;
+  color: black;
+  border: none;
+  box-shadow: 0 0 0 1px #ff6827 none;
+  outline: none;
+  font-family: "Josefin Sans", sans-serif;
+  padding: 8px 20px;
+  font-size: 20px;
+}
+
+.button-exercice:active {
+  color: #ff6827;
+  background: white;
+}
+
+.button-exercice-placement {
+  display: flex;
+  justify-content: center;
+}

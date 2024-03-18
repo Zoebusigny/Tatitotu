@@ -18,8 +18,19 @@
   padding: 15px;
   text-align: center;
   gap: 10px;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 16px;
+}
+.list-des-temps-titre {
+  font-size: 40px;
+  font-family: "Josefin Sans", sans-serif;
 }
 
+.list-des-temps-h4 {
+  font-size: 20px;
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: 400;
+}
 .list-des-temps-links a {
   border: solid black 2px;
   text-decoration: none;
@@ -31,4 +42,10 @@
 
 .list-des-temps-links a.is-active {
   opacity: 100%;
+}
+
+.list-des-temps-selecteur {
+  font-family: "Josefin Sans", sans-serif;
+  text-decoration: none;
+  color: red;
 }
