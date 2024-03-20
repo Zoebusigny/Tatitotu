@@ -1,6 +1,9 @@
 .verbes-color {
   border-radius: 30px;
   background: #d0f289;
+  padding: 36px 25px 29px;
+
+  flex-shrink: 0;
 }
 
 .verbes-search {
@@ -9,13 +12,49 @@
 
 .verbes-search-icon {
   position: absolute;
-  right: 10px;
-  max-width: 5%;
-  top: 5px;
+  right: 20px;
+  max-width: 11%;
+  top: 8px;
 }
 
 .search-input {
   border-radius: 20px;
-  padding: 5px;
+  padding: 15px;
   border: none;
+  width: 100%;
+  margin-bottom: 10px;
+  font-size: 20px;
+  font-family: "Josefin Sans", sans-serif;
+}
+
+.verbes-titre {
+  padding-bottom: 10px;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 30px;
+}
+
+.verbes-select {
+  font-family: "Josefin Sans", sans-serif;
+  padding-top: 5px;
+  color: black;
+  font-size: 20px;
+}
+
+.verbes-deselect {
+  font-family: "Josefin Sans", sans-serif;
+  text-decoration: none;
+  color: red;
+  font-size: 20px;
+}
+
+.verbe-alignement {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+.verbes-list p {
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 20px;
+  padding: 10px 0;
 }

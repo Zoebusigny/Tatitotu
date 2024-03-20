@@ -30,6 +30,7 @@
   font-size: 20px;
   font-family: "Josefin Sans", sans-serif;
   font-weight: 400;
+  display: flex;
 }
 .list-des-temps-links a {
   border: solid black 2px;
@@ -48,4 +49,8 @@
   font-family: "Josefin Sans", sans-serif;
   text-decoration: none;
   color: red;
+  display: block;
+  text-align: right;
+  margin-right: 30px;
+  margin-top: 10px;
 }
