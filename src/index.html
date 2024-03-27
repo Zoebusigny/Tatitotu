@@ -13,7 +13,7 @@
     />
   </head>
   <body>
-    <div class="container">
+    <div class="l-header">
       <div class="container">
         <div class="row">
           <div class="col-3">
@@ -37,7 +37,9 @@
                 id="seg-jecree"
                 checked
               />
-              <label for="seg-jecree" class="last">Je crée</label>
+              <label for="seg-jecree" class="last"
+                ><a href="create.html">Je crée</a></label
+              >
             </div>
           </div>
           <div class="col-3">
@@ -57,145 +59,175 @@
             <p class="text">A toi de jouer!</p>
           </div>
         </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12">
+          <div class="center">
+            <select class="dropdown" name="" id="">
+              <option value="">Niveau</option>
+              <option value="">5P</option>
+              <option value="">6H</option>
+              <option value="">7H</option>
+              <option value="">8H</option>
+              <option value="">9H</option>
+              <option value="">10H</option>
+              <option value="">11H</option>
+            </select>
+            <select class="dropdown" name="" id="">
+              <option value="">Type</option>
+              <option value="">1 verbes</option>
+              <option value="">5 verbes</option>
+              <option value="">10 verbes</option>
+            </select>
+            <select class="dropdown" name="" id="">
+              <option value="">Difficulté</option>
+              <option value="">-ger</option>
+              <option value="">-cer</option>
+              <option value="">-ger+-cer</option>
+              <option value="">Rares</option>
+              <option value="">Difficiles</option>
+            </select>
+          </div>
+        </div>
+      </div>
+      <div class="list-des-temps-color">
         <div class="row">
-          <div class="col-lg-12">
-            <div class="center">
-              <select class="dropdown" name="" id="">
-                <option value="">Niveau</option>
-                <option value="">5P</option>
-                <option value="">6H</option>
-                <option value="">7H</option>
-                <option value="">8H</option>
-                <option value="">9H</option>
-                <option value="">10H</option>
-                <option value="">11H</option>
+          <div class="col-lg-6">
+            <h3 class="list-des-temps-titre">Liste des temps</h3>
+          </div>
+          <div class="col-lg-6">
+            <a class="list-des-temps-selecteur" href="">Tout sélectionner</a>
+          </div>
+          <div class="col-lg-2">
+            <div class="list-des-temps">
+              <h4 class="list-des-temps-h4">Indictif</h4>
+              <div class="list-des-temps-links">
+                <a href="">Présent</a>
+                <a href="">Passé</a>
+                <a class="is-active" href="">Imparfait</a>
+                <a href="">Futur</a>
+                <a href="">Plus-que-parfait</a>
+                <a href="">Futur antérieur </a>
+                <a class="is-active" href="">Passé antérieur</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-2">
+            <div class="list-des-temps">
+              <h4 class="list-des-temps-h4">Subjonctif</h4>
+              <div class="list-des-temps-links">
+                <a href="">Présent</a>
+                <a href="">Passé</a>
+                <a class="is-active" href="">Imparfait</a>
+                <a href="">Plus-que-parfait</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-2">
+            <div class="list-des-temps">
+              <h4 class="list-des-temps-h4">Conditionel</h4>
+              <div class="list-des-temps-links">
+                <a href="">Présent</a>
+                <a class="is-active" href="">Passé 1</a>
+                <a href="">Passé2</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-2">
+            <div class="list-des-temps">
+              <h4 class="list-des-temps-h4">Impératif</h4>
+              <div class="list-des-temps-links">
+                <a class="is-active" href="">Présent</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-2">
+            <div class="list-des-temps">
+              <h4 class="list-des-temps-h4">Participe</h4>
+              <div class="list-des-temps-links">
+                <a href="">Présent</a>
+                <a href="">Passé</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-2">
+            <div class="list-des-temps">
+              <h4 class="list-des-temps-h4">Gerondif</h4>
+              <div class="list-des-temps-links">
+                <a href="">Présent</a>
+                <a href="">Passé</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-4">
+          <div class="verbes-color">
+            <h4 class="verbes-titre">Verbes</h4>
+            <div class="verbes-search">
+              <form>
+                <img
+                  class="verbes-search-icon"
+                  src="../src/img/116836.png"
+                  alt="search-icon"
+                />
+                <input
+                  type="text"
+                  name="text"
+                  class="search-input"
+                  placeholder="Ajoute un verbe"
+                />
+              </form>
+            </div>
+            <div class="verbe-alignement">
+              <a class="verbes-select" href="">Séléctionner</a>
+              <a class="verbes-deselect" href="">Tout décocher</a>
+            </div>
+            <div class="verbes-list">
+              <div class="verbes-alignement-list">
+                <div class="verbe-list-item">
+                  <p>Avoir</p>
+                  <img src="../src/img/Vector 3.png" alt="" />
+                </div>
+                <div class="verbe-list-item">
+                  <p>Être</p>
+                  <img src="../src/img/Vector 3.png" alt="" />
+                </div>
+                <div class="verbe-list-item">
+                  <p>Savoir</p>
+                  <img src="../src/img/Vector 3.png" alt="" />
+                </div>
+                <div class="verbe-list-item">
+                  <p>Maîtriser</p>
+                  <img src="../src/img/Vector 3.png" alt="" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 offset-md-4">
+          <div class="option-color">
+            <h4 class="option-titre">Option</h4>
+            <div class="option-grp">
+              <p class="option-text">Nombres de questions</p>
+              <select class="option-dropdown" name="" id="">
+                <option value="">10</option>
+                <option value="">30</option>
+                <option value="">50</option>
               </select>
-              <select class="dropdown" name="" id="">
-                <option value="">Type</option>
-                <option value="">1 verbes</option>
-                <option value="">5 verbes</option>
-                <option value="">10 verbes</option>
-              </select>
-              <select class="dropdown" name="" id="">
-                <option value="">Difficulté</option>
-                <option value="">-ger</option>
-                <option value="">-cer</option>
-                <option value="">-ger+-cer</option>
-                <option value="">Rares</option>
-                <option value="">Difficiles</option>
+            </div>
+            <div class="option-grp">
+              <p class="option-text">Mode</p>
+              <select class="option-dropdown option-mode" name="" id="">
+                <option value="">Trouve les temps</option>
+                <option value="">Ecrit les temps</option>
               </select>
             </div>
           </div>
         </div>
-        <div class="list-des-temps-color">
-          <div class="row">
-            <div class="col-lg-6">
-              <h3 class="list-des-temps-titre">Liste des temps</h3>
-            </div>
-            <div class="col-lg-6">
-              <a class="list-des-temps-selecteur" href="">Tout sélectionner</a>
-            </div>
-            <div class="col-lg-2">
-              <div class="list-des-temps">
-                <h4 class="list-des-temps-h4">Indictif</h4>
-                <div class="list-des-temps-links">
-                  <a href="">Présent</a>
-                  <a href="">Passé</a>
-                  <a class="is-active" href="">Imparfait</a>
-                  <a href="">Futur</a>
-                  <a href="">Plus-que-parfait</a>
-                  <a href="">Futur antérieur </a>
-                  <a class="is-active" href="">Passé antérieur</a>
-                </div>
-              </div>
-            </div>
-            <div class="col-lg-2">
-              <div class="list-des-temps">
-                <h4 class="list-des-temps-h4">Subjonctif</h4>
-                <div class="list-des-temps-links">
-                  <a href="">Présent</a>
-                  <a href="">Passé</a>
-                  <a class="is-active" href="">Imparfait</a>
-                  <a href="">Plus-que-parfait</a>
-                </div>
-              </div>
-            </div>
-            <div class="col-lg-2">
-              <div class="list-des-temps">
-                <h4 class="list-des-temps-h4">Conditionel</h4>
-                <div class="list-des-temps-links">
-                  <a href="">Présent</a>
-                  <a class="is-active" href="">Passé 1</a>
-                  <a href="">Passé2</a>
-                </div>
-              </div>
-            </div>
-            <div class="col-lg-2">
-              <div class="list-des-temps">
-                <h4 class="list-des-temps-h4">Impératif</h4>
-                <div class="list-des-temps-links">
-                  <a class="is-active" href="">Présent</a>
-                </div>
-              </div>
-            </div>
-            <div class="col-lg-2">
-              <div class="list-des-temps">
-                <h4 class="list-des-temps-h4">Participe</h4>
-                <div class="list-des-temps-links">
-                  <a href="">Présent</a>
-                  <a href="">Passé</a>
-                </div>
-              </div>
-            </div>
-            <div class="col-lg-2">
-              <div class="list-des-temps">
-                <h4 class="list-des-temps-h4">Gerondif</h4>
-                <div class="list-des-temps-links">
-                  <a href="">Présent</a>
-                  <a href="">Passé</a>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-4">
-            <div class="verbes-color">
-              <h4 class="verbes-titre">Verbes</h4>
-              <div class="verbes-search">
-                <form>
-                  <img
-                    class="verbes-search-icon"
-                    src="../src/img/116836.png"
-                    alt="search-icon"
-                  />
-                  <input
-                    type="text"
-                    name="text"
-                    class="search-input"
-                    placeholder="Ajoute un verbe"
-                  />
-                </form>
-              </div>
-              <div class="verbe-alignement">
-                <a class="verbes-select" href="">Séléctionner</a>
-                <a class="verbes-deselect" href="">Tout décocher</a>
-              </div>
-              <div class="verbes-list">
-                <div class="verbes-alignement-list">
-                <p>Avoir</p>
-                <img src="../src/img/Vector 3.png" alt="" />
-                <p>Être</p>
-                <img src="../src/img/Vector 3.png" alt="" />
-                <p>Savoir</p>
-                <img src="../src/img/Vector 3.png" alt="" />
-                <p>Maîtriser</p>
-                <img src="../src/img/Vector 3.png" alt="" />
-              </div>
-            </div> 
-            </div>
-          </div>
-          <div class="col-lg-4 offset-md-4">colonne 9</div>
         <div class="row">
           <div class="col-lg-12">
             <div class="button-exercice-placement">
@@ -211,6 +243,10 @@
             <button class="double-button">code à 8 caracères</button>
           </div>
         </div>
+      </div>
+    </div>
+    <div class="l-footer">
+      <div class="container">
         <div class="row">
           <div class="col-lg-3">
             <div class="footer-logo">
@@ -223,6 +259,7 @@
         </div>
       </div>
     </div>
+
     <script src="js/main.js" type="module"></script>
   </body>
 </html>

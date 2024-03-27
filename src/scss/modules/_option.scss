@@ -1,0 +1,41 @@
+.option-color {
+  background-color: #f25c59;
+  padding-left: 39px;
+  padding-top: 36px;
+  padding-bottom: 29px;
+
+  border-radius: 31px;
+}
+
+.option-dropdown {
+  background: #ffff;
+  padding: 7px 5px;
+  border-radius: 12px;
+  border: none;
+
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 16px;
+  margin-left: 83px;
+}
+
+.option-text {
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 20px;
+}
+
+.option-mode {
+  margin-left: 130px;
+}
+
+.option-grp {
+  display: flex;
+  justify-items: flex-end;
+  align-content: space-between;
+  margin-bottom: 13px;
+}
+
+.option-titre {
+  padding-bottom: 20px;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 30px;
+}
