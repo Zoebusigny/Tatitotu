@@ -2,7 +2,7 @@
   border-radius: 30px;
   background: #ffa756;
   margin-bottom: 56px;
-  padding: 0px 60px;
+  padding: 0px 60px 35px 60;
 }
 
 .list-des-temps {
@@ -37,19 +37,24 @@
   font-family: "Josefin Sans", sans-serif;
   font-weight: 400;
   display: flex;
-  margin-left: 40px;
+  margin-left: 30px;
 }
-.list-des-temps-links a {
+.list-des-temps-links button {
   border: solid black 2px;
   text-decoration: none;
   color: black;
   padding: 5px 20px;
   border-radius: 8px;
   opacity: 50%;
+  font-family: "Josefin Sans", sans-serif;
 }
 
-.list-des-temps-links a.is-active {
+.list-des-temps-links button:active {
   opacity: 100%;
+  font-family: "Josefin Sans", sans-serif;
+  transition: none;
+  background-color: black;
+  color: azure;
 }
 
 .list-des-temps-selecteur {
