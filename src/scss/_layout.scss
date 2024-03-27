@@ -7,12 +7,23 @@
   padding-bottom: 75px;
 }
 
-.t-create .l-header {
-  background: orange;
-}
-
 .l-footer {
   background-image: url(../img/footer-background.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+.t-create .l-header {
+  background-image: url(../img/header-background-create.png);
+  background-size: 100%;
+  background-color: #acd8f1;
+  background-position: bottom;
+  background-repeat: no-repeat;
+  padding-bottom: 75px;
+}
+
+.t-create .l-footer {
+  background-image: url(../img/footer-background-create.png);
   background-repeat: no-repeat;
   background-size: 100%;
 }
