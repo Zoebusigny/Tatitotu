@@ -33,9 +33,9 @@
   &:hover {
     color: whitex;
     background: lighten(#76aabc, 10%);
-    background: lighten(#ff6827, 10%);
   }
 }
+
 .segmented-button label:disabled,
 .segmented-button label.disabled {
   cursor: default;
@@ -49,6 +49,7 @@
 .segmented-button label.last {
   border-top-right-radius: 20px;
   border-bottom-right-radius: 20px;
+  background-color: #76aabc;
 }
 
 .segmented-button label:active,
