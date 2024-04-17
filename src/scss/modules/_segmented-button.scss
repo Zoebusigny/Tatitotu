@@ -32,7 +32,7 @@
 
   &:hover {
     color: whitex;
-    background: lighten(#ff6827, 10%);
+    background: lighten(#76aabc, 10%);
     background: lighten(#ff6827, 10%);
   }
 }
@@ -59,11 +59,7 @@
   color: white;
 }
 
-.segmented-button input:disabled + label {
-  cursor: not-allowed;
-  color: rgba(blue, 0.5);
-
-  &:hover {
-    background: yellow;
-  }
+.segmented-button a {
+  text-decoration: none;
+  color: azure;
 }
