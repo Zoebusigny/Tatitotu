@@ -49,6 +49,9 @@
 }
 
 .t-create .option-impression {
+  display: flex;
+  justify-content: space-between;
+  padding-right: 25px;
   .switch {
     -webkit-appearance: none;
     position: relative;
