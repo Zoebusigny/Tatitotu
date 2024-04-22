@@ -49,12 +49,13 @@
   font-family: "Josefin Sans", sans-serif;
 }
 
-.list-des-temps-links button:active {
+.list-des-temps-links button.is-active {
   opacity: 100%;
   font-family: "Josefin Sans", sans-serif;
   transition: none;
-  background-color: black;
+  background-color: gray;
   color: azure;
+  border: solid gray 2px;
 }
 
 .list-des-temps-selecteur {
